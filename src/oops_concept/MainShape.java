@@ -4,7 +4,7 @@ abstract class Shape {
     public abstract double calculateArea();
 }
 
-class Rectangle2 extends MainShape {
+class Rectangle2 extends Shape {
     private double length;
     private double width;
 
